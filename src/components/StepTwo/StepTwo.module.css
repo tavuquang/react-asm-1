@@ -1,0 +1,18 @@
+.container {
+    width: 400px;
+    margin: auto;
+}
+
+.wrapFormControl {
+    min-height: 300px;
+}
+
+.formControl {
+    margin-top: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
