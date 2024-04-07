@@ -32,8 +32,7 @@ export const StepOne = ({ onSaveData, onNext }) => {
 
                     <div className={classes.formControl}>
                         <p>Please Enter Number of people</p>
-                        <Form.Item name="peopleQuantity"
-                            rules={[{ required: true, message: 'Please input!' }]}>
+                        <Form.Item name="peopleQuantity">
                             <InputNumber min={1} max={10} defaultValue={1} />
                         </Form.Item>
                     </div>

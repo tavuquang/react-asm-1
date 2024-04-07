@@ -78,13 +78,7 @@ export const StepThree = ({ onSaveData, onPrevious, onNext, data }) => {
 
                         <div className={classes.formControl}>
                             <p>Please Enter no. of servings</p>
-                            <Form.Item name="dishesQuantity"
-                                rules={[
-                                    {
-                                        required: true,
-                                        message: 'Please input!'
-                                    },
-                                ]}>
+                            <Form.Item name="dishesQuantity">
                                 <InputNumber min={1} max={10} defaultValue={1} onChange={onChangeQuantity} />
                             </Form.Item>
                         </div>
